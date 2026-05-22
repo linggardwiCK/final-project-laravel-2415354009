@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Service extends Model
 {
+<<<<<<< HEAD
     protected $fillable = [
         "name",
         "price",
@@ -22,4 +23,7 @@ class Service extends Model
             "price" => "integer",
         ];
     }
+=======
+   
+>>>>>>> feature/subscription-api
 }

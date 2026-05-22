@@ -10,7 +10,10 @@ return Application::configure(basePath: dirname(__DIR__))
         commands: __DIR__.'/../routes/console.php',
         health: '/up',
         api: __DIR__.'/../routes/api.php'
+<<<<<<< HEAD
         
+=======
+>>>>>>> feature/subscription-api
     )
     ->withMiddleware(function (Middleware $middleware): void {
         //
