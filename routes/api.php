@@ -2,15 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\ServiceController;
+use App\Http\Controllers\Api\CustomerController;
+use App\Http\Controllers\Api\SubscriptionController;
 
 Route::apiResource('services', ServiceController::class);
-
-Route::patch('services/{id}/activate', [
-    ServiceController::class,
-    'activate'
-]);
-
-Route::patch('services/{id}/deactivate', [
-    ServiceController::class,
-    'deactivate'
-]);
+Route::apiResource('customers', CustomerController::class);
+Route::apiResource('subscriptions', SubscriptionController::class);
