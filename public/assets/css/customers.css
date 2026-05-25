@@ -1,0 +1,88 @@
+.stats-card {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.stats-title {
+    color: gray;
+    font-size: 14px;
+}
+
+.stats-number {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--dark-green);
+}
+
+.custom-table {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.custom-table table {
+    margin: 0;
+}
+
+.custom-table th {
+    background: var(--dark-green);
+    color: white;
+    border: none;
+}
+
+.custom-table td {
+    vertical-align: middle;
+}
+
+.btn-primary-custom {
+    background: var(--primary);
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 18px;
+    transition: 0.3s;
+}
+
+.btn-primary-custom:hover {
+    background: #d96514;
+}
+
+.badge-active {
+    background: #198754;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.badge-inactive {
+    background: #dc3545;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.modal-content {
+    border-radius: 20px;
+    border: none;
+}
+
+.form-control {
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.form-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.table tbody tr:hover {
+    background: #fff7f1;
+    transition: 0.3s;
+}
